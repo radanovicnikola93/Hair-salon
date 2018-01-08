@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Nikola Radanovic">
 
-    <title>Frizerski salo Koper</title>
+    <title>Frizerski salon Koper</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -20,10 +20,14 @@
     <![endif]-->
 
     <style>
-      .jumbotron h3 {
+
+      .align-center {
         text-align: center;
       }
+
+
     </style>
+
   </head>
   <body>
     <div class="container-fluid">
@@ -51,7 +55,7 @@
           <li><a href="#">O nas</a></li>
           <li><form class="navbar-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+              <input type="text" class="form-control" placeholder="Iskalnik">
             </div>
             </form></li>
         </ul>
@@ -96,9 +100,9 @@
       </div><!-- /.Header-->
 
       <div class="jumbotron">
-        <h3 class="aling-center">Kaj nudimo</h3>
+        <h3 class="align-center">Kaj nudimo</h3>
         <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
               <div class="caption">
                 <h3>Nega las</h3>
@@ -107,7 +111,7 @@
             </div><!--/.thumbnail-->
           </div><!--/.col-sm-6 col-md-3-->
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-4 col-md-4">
               <div class="thumbnail">
                 <div class="caption">
                   <h3>Striženje las</h3>
@@ -116,7 +120,7 @@
               </div><!--/.thumbnail-->
           </div><!--/.col-sm-6 col-md-3-->
 
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-4 col-md-4">
               <div class="thumbnail">
                 <div class="caption">
                   <h3>Barvanje las</h3>
@@ -127,9 +131,64 @@
         </div><!--/.row-->
       </div><!-- /.jumbotron-->
 
+      <div class="container">
+        <h3 class="align-center">Naroči se</h3>
+        <div class="row">
+        <form class="form-group col-sm-6">
+          <input type="text" class="form-control" placeholder="Ime in priimek">
+          <input type="text" class="form-control" placeholder="Tel.številka">
+          <input type="text" class="form-control" placeholder="Termin">
+          <textarea class="form-control" rows="8" placeholder="Ostalo (želje glede pričeske itd.)"></textarea>
+          <label class="col-sm-12"><input type="checkbox">Strinjam se, da je Frizerski salon Koper najboljši salon</label>
+          <button type="submit" class="btn btn-default">Pošlji</button>
+        </form>
 
+        <div class="table-responsive">
+        <table class="table table-bordered col-sm-6">
+          <thead>
+            <tr>
+              <th>Dan</th>
+              <th>Delovne ure</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ponedeljek</td>
+              <td>8.00-16.00</td>
+            </tr>
+            <tr>
+              <td>Torek</td>
+              <td>8.00-18.00</td>
+            </tr>
+            <tr>
+              <td>Sreda</td>
+              <td>8.00-16.00</td>
+            </tr>
+            <tr>
+              <td>Četrtek</td>
+              <td>8.00-16.00</td>
+            </tr>
+            <tr>
+              <td>Petek</td>
+              <td>8.00-20.00</td>
+            </tr>
+            <tr>
+              <td>Sobota</td>
+              <td>8.00-16.00</td>
+            </tr>
+            <tr>
+              <td>Nedelja</td>
+              <td>8.00-12.00</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>* Ob praznikih velja nedeljski urnik</p>
+      </div><!--table-responsive-->
 
-    </div><!-- /.container-->
+    </div><!--row-->
+    </div><!--container-->
+
+    </div><!-- /.container-fluid-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
