@@ -1,0 +1,23 @@
+body {
+ background-color: black;
+ color: white;
+ font-family: Helvetica;
+}
+
+.align-center {
+  text-align: center;
+}
+
+
+.jumbotron {
+  background-color: black;
+}
+
+.container .panel-body {
+  color: black;
+}
+
+.footer h4, p {
+  font-size: 10px;
+  color: grey;
+}
