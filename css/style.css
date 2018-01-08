@@ -21,3 +21,9 @@ body {
   font-size: 10px;
   color: grey;
 }
+
+.modal-body, .modal-header, .modal-footer {
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+}

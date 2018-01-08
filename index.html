@@ -44,7 +44,7 @@
           <li><a href="#">Kaj nudimo</a></li>
           <li><a href="#">Naroči se</a></li>
           <li><a href="#">FAQ</a></li>
-          <li><a href="#">O nas</a></li>
+          <li><a data-toggle="modal" data-target="#myModal" href="#">O nas</a></li>
           <li><form class="navbar-form">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Iskalnik">
@@ -53,6 +53,8 @@
         </ul>
       </div><!-- /.navbar-collapse -->
       </nav>
+
+
 
       <!--HEADER-->
       <div class="header">
@@ -213,6 +215,26 @@
     </div>
 
     </div><!-- /.container-fluid-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">O nas</h4>
+        </div>
+    <div class="modal-body">
+      Frizerski salon Koper je nov frizerski salon v samem centru Kopra.
+      Salon je prostoren in domač in v njem delajo prijazne in spodobne frizerke in frizerji, ki oblikujejo pričesko
+      z občutkom in domišlijo.
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Zapri</button>
+    </div>
+  </div>
+</div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
